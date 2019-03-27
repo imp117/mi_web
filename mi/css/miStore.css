@@ -1,0 +1,80 @@
+* {margin: 0; padding: 0;} a {text-decoration: none;} ul {text-decoration: none;}div{display: block;}
+/*首页部分*/
+.box{min-width: 1226px;}
+.header {width: 100%; height: 40px;background-color: #333;margin-right: auto; margin-left: auto;}
+.content_top {width: 100%;}
+.content_bottom {width: 100%;background-color: #ccc;}
+.footer_top {width: 100%; height: 100px;}
+.footer_bottom {width: 100%; height: 100px;background-color: #ccc;}
+.content{width: 1226px; margin: 0 auto;}
+.content_menu{width: 1226px; height: 90px;margin: 10px 10px 0px auto;}
+.content_pic{width: 1226px; height: 460px;background: url(../img/mi.jpg);position: relative;}
+.content_shop{width: 1226px; height: 170px;margin: 10px auto;}
+.content_shop_1{width: 248px;height: 170px;background-color: #ccc;float: left;margin-right: 10px;}
+.content_shop_2{width: 316px;height: 170px;background: url(../img/midAD1.jpg);float: left;margin-right: 10px;}
+.content_shop_3{width: 316px;height: 170px;background: url(../img/midAD2.jpg);float: left;margin-right: 10px;}
+.content_shop_4{width: 316px;height: 170px;background: url(../img/midAD3.jpg);float: left;}
+/*小米闪购*/
+.content_sg{width: 1226px;height:50px;line-height: 40px;margin: 0 auto;}
+.content_shop_pic{width: 1226px;height: 119px;background:url(../img/longAD2.jpg);margin: 10px auto;}
+.content_djs{width: 1226px;height: 400px;margin: 10px auto;}
+.content_djs div{width: 237px; height: 400px; float: left;}
+.content_djs_1{margin-right: 10px;background: url(../img/djs/flashbuy1.jpg) no-repeat;}
+.content_djs_2{margin-right: 10px;background: url(../img/djs/flashbuy2.jpg) no-repeat;}
+.content_djs_3{margin-right: 10px;background: url(../img/djs/flashbuy3.jpg) no-repeat;}
+.content_djs_4{margin-right: 10px;background: url(../img/djs/flashbuy4.jpg) no-repeat;}
+.content_djs_5{background: url(../img/djs/flashbuy4.jpg) no-repeat;}
+/*手机页面*/
+
+.content_bottom_1{width: 1226px;margin: 10px auto;padding: 10px 0px;}
+.content_sg{width: 1226px;height: 50px;}
+.content_bottom_le{width: 1226px;height: 614px;background: #fff;}
+.content_bottom_re{width: 1226px;height: 119px;background: url(../img/longAD3.jpg);margin-top: 10px;}
+.content_bottom_le_1{width: 234px;height: 614px;background:url(../img/djs/shop_1.jpg);float:left;margin-right: 10px;}
+.content_bottom_le_2{width: 980px;height: 614px;background: #00FFFF;float:right;}
+.content_bottom_le_2 ul li{position: relative;float:left;display: block;width: 235.5px;height: 300px;border: 1px solid #ccc;background-color: #fafafa;margin-bottom: 10px;background-image: url(../img/line1.png);background-position: left top;background-repeat: repeat-x;}
+.content_bottom_le_li{margin-right: 10px;}
+
+
+/*导航条*/
+.hader_zon{width: 1226px;height: 40px;background-color: #333;margin: 0 auto;}
+.header_nav_left a{color: #b0b0b0;float: left;display:inline-block;font-size: 13px;line-height: 40px;}
+.header_nav_rigth a{color: #b0b0b0;float: left;display:inline-block;font-size: 13px;line-height: 40px;}
+.header_gwc a{color: #b0b0b0;display:block;font-size: 13px;line-height: 40px;}
+.header_nav_left{height: 40px;display: inline-block;    position: relative;}
+.header_nav_left a:hover{cursor: pointer;color: #fff;transition: 0.3S;}
+.header_nav_rigth a:hover{cursor: pointer;color: #fff;transition: 0.3S;}
+.header_gwc :hover{cursor: pointer;color: #ff6700;transition: 0.3S;background: #fff;}
+.header .sep{margin: 0 .5em;color: #424242;float: left;line-height: 40px;font-size: 13px;}
+.header_nav_rigth{float: right;right: 50px;position: relative;}
+.header_gwc{position: relative;float: right;width: 120px;text-align: center;}
+.header_gwc_menu{display: none;position: absolute;height:80px;right: 0;right: -1px \9;top: 40px;z-index: 3;width: 316px;padding: 15px 0 0;color: #424242;background: #fff;border: 1px solid #e0e0e0 \9;border-top: 0 \9;-webkit-box-shadow: 0 2px 10px rgba(0,0,0,0.15);box-shadow: 0 2px 10px rgba(0,0,0,0.15);}
+.loading{margin: 30px 20px 20px;text-align: center;font-size: 13px;color: #424242;}
+.hader_zon .header_gwc .loading:hover{color: #424242!important;}
+#www:hover div{display: block!important;transition: 0.3S;}
+
+/*导航条2*/
+.content_menu_ico{width: 55px;height: 55px;margin-top: 17px;float: left;background-image: url(../img/footlogo.png);cursor: pointer;overflow: hidden;display: block;}
+.content_menu_nav{width: 650px;float: left;margin-left: 200px;}
+.content_menu_nav ul li{list-style-type: none;float: left;margin-right: 30px;line-height: 90px;}
+.content_menu_nav ul{cursor: pointer;list-style-type: none;position: relative;z-index: 10;height: 90px;margin: 0;list-style-type: none;font-size: 16px;}
+.content_menu_query{margin-top: 25px;float: right;width: 296px;}
+.content_menu_query .search-text {position: absolute;top: 0;right: 51px;z-index: 1;width: 223px;height: 48px;
+	padding: 0 10px;border: 1px solid #e0e0e0;font-size: 14px;line-height: 48px;outline: 0;-webkit-transition: all .2s;transition: all .2s;}
+.search_form {position: relative;width: 296px;height: 50px;}
+.content_menu .content_menu_nav ul li:hover{color: #FF6700;}
+.search-btn{position: absolute;right: 0;top: 0;z-index: 2;width: 52px;height: 48px;border: 1px solid #e0e0e0;
+    font-size: 24px;line-height: 24px;background: #fff;color: #616161;outline: 0;-webkit-transition: all .2s;transition: all .2s;}
+.chaxun_icon{position: absolute;right: 0;z-index: 2;margin: 16px;cursor: pointer;}
+/*轮播图*/
+.pic_car_nav ul li a{list-style-type: none;color: #fff;font-size: 16px;position: relative;display: block;padding-left: 30px;height: 40px;line-height: 39px;}
+.pic_car_nav{position: absolute;width: 234px;height: 460px;top: 0px;z-index: 5;}
+.pic_car_ul{height: 400px;border: 0;margin: 0;padding: 30px 0;color: #fff;background: #333;background: rgba(0,0,0,0.6);}
+.pic_car_nav li:hover{background: #FF6700;}
+.pic_car_ul li a i{position: absolute;top: 12px;right: 20px;font-size: 19px;line-height: 16px;}
+.swiper-container {width: 1226px;height: 460px;cursor: pointer;}  
+.swiper-slide {text-align: center; font-size: 18px; background: #fff;
+         /* Center slide text vertically */
+       display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;-webkit-box-pack: center;  
+        -ms-flex-pack: center;-webkit-justify-content: center;justify-content: center;-webkit-box-align: center;-ms-flex-align: center;-webkit-align-items: center;align-items: center;}   
+.swiper-container .swiper-button-prev{position: absolute;left: 245px;color: #fff;}
